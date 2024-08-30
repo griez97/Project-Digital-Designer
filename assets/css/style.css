@@ -48,9 +48,6 @@
 }
 
 /* Button + Nummer change color */
-.white:hover ~ h4 {
-    color: var(--color-white);
-}
 
 .black:hover ~ h4 {
     color: var(--color-black);
@@ -67,7 +64,7 @@ header p{
     font-weight: 400;
     line-height: 23.46px;
     text-align: center;
-
+    
 }
 
 header h1{
@@ -87,7 +84,7 @@ header img{
     justify-content: center;
     align-items: center;
     width: 720px;
-/*     height: auto; */
+    /*     height: auto; */
     margin: 60px auto;
 }
 
@@ -97,4 +94,90 @@ header h2{
     font-weight: 400;
     line-height: 185px;
     text-align: center;
+}
+
+.portfolio2{
+    background-color: rgb(0, 0, 0, 0.3);
+    background-image: url("../img/portfolio2.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+section p{
+    font-family: "WorkSans-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.46px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    color: var(--color-graylight);
+    margin-left: 8rem;
+    
+}
+
+section .jahren{
+    padding-top: 7rem;
+}
+
+section .text{
+    padding-top: 3rem;
+    
+}
+
+.portfolio2 h3, .portfolio4 h3{
+    font-family: "Didact";
+    font-size: 112px;
+    font-weight: 400;
+    line-height: 146.83px;
+    text-align: left;
+    color: var(--color-white);
+    margin-left: 7rem;
+}
+
+div{
+    margin-left: 8rem;
+    margin-top: 4rem;
+}
+
+.white{
+    background: none;
+    padding: 1rem;
+    border: 2px solid var(--color-white);
+}
+
+a{
+    font-family: Fjalla One;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.11px;
+    text-align: left;
+    text-decoration: none;
+    color: var(--color-graylight);
+}
+
+.portfolio2 h4, .portfolio4 h4{
+    font-family: "Fjalla";
+    font-size: 165px;
+    font-weight: 400;
+    line-height: 207.38px;
+    letter-spacing: -0.02em;
+    text-align: right;
+    color: var(--color-graylight);
+    padding-top: 2rem;
+    padding-right: 3rem;
+}
+
+.white:hover{
+    background: var(--color-white);
+}
+
+.white:hover a{
+    color: var(--color-black);
+}
+
+.white:hover ~ h4 {
+    color: var(--color-white);
 }
