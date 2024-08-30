@@ -1,0 +1,11 @@
+main p:nth-last-of-type(1){
+
+}/* Frame 1 */
+
+footer p{
+    position: absolute;
+    width: 12px;
+    height: 10px;
+    left: 714px;
+    top: 8036px;
+}
