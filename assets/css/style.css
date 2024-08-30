@@ -1,17 +1,100 @@
+@font-face {
+    font-family: "Fjalla";
+    src: url("../fonts/FjallaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url("../fonts/WorkSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "WorkSans-Light";
+    src: url("../fonts/WorkSans-Light.ttf");
+}
+
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url("../fonts/WorkSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: "WorkSans-Bold";
+    src: url("../fonts/WorkSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "WorkSans-ExtraBold";
+    src: url("../fonts/WorkSans-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Didact";
+    src: url("../fonts/DidactGothic-Regular.ttf");
+}
+
 *{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
 
+:root{
+    --color-graylight: #9e9e9e; 
+    --color-white: #fff;
+    --color-black: #000;
+    --color-graydark: #333;
+    --color-gray: #666;
+}
 
-
+/* Button + Nummer change color */
 .white:hover ~ h4 {
-    color: rgb(255, 255, 255);
-    font-size: 30px;
+    color: var(--color-white);
 }
 
 .black:hover ~ h4 {
-    color: rgb(0, 0, 0);
-    font-size: 30px;
+    color: var(--color-black);
+}
+
+header{
+    margin: 20px auto;
+}
+
+header p{
+    margin-top: 20px;
+    font-family: "WorkSans-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.46px;
+    text-align: center;
+
+}
+
+header h1{
+    margin-top: 60px;
+    font-family: "Didact";
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 130px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: var(--color-black);
+}
+
+header img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
+/*     height: auto; */
+    margin: 60px auto;
+}
+
+header h2{
+    font-family: "WorkSans-Regular";
+    font-size: 160px;
+    font-weight: 400;
+    line-height: 185px;
+    text-align: center;
 }
