@@ -1,11 +1,17 @@
-main p:nth-last-of-type(1){
+*{
+    margin: 0;
+    padding: 0;
+    
+}
 
-}/* Frame 1 */
 
-footer p{
-    position: absolute;
-    width: 12px;
-    height: 10px;
-    left: 714px;
-    top: 8036px;
+
+.white:hover ~ h4 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.black:hover ~ h4 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
 }
