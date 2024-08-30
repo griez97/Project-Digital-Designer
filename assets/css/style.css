@@ -47,6 +47,10 @@
     --color-gray: #666;
 }
 
+body{
+    min-width: 1200px;
+}
+
 /* Button + Nummer change color */
 
 .black:hover ~ h4 {
@@ -68,7 +72,7 @@ header p{
 }
 
 header h1{
-    margin-top: 60px;
+    margin-top: 30px;
     font-family: "Didact";
     font-size: 100px;
     font-weight: 400;
@@ -84,7 +88,6 @@ header img{
     justify-content: center;
     align-items: center;
     width: 720px;
-    /*     height: auto; */
     margin: 60px auto;
 }
 
@@ -100,7 +103,18 @@ header h2{
     background-color: rgb(0, 0, 0, 0.3);
     background-image: url("../img/portfolio2.jpg");
     background-attachment: fixed;
-    height: 90vh;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+.portfolio4{
+    background-color: rgb(0, 0, 0, 0.3);
+    background-image: url("../img/portfolio4.jpg");
+    background-attachment: fixed;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -150,7 +164,7 @@ div{
 }
 
 a{
-    font-family: Fjalla One;
+    font-family: "Fjalla";
     font-size: 16px;
     font-weight: 400;
     line-height: 20.11px;
@@ -181,4 +195,52 @@ a{
 
 .white:hover ~ h4 {
     color: var(--color-white);
+}
+
+article{
+    background-color: var(--color-black);
+    height: 105vh;
+    min-height: 850px;
+}
+
+article h2{
+    font-family: "WorkSans-Regular";
+    font-size: 180px;
+    font-weight: 400;
+    line-height: 211.14px;
+    letter-spacing: -0.1em;
+    text-align: center;
+    padding-top: 4rem;
+    color: var(--color-white);
+}
+
+article p{
+    font-family: "WorkSans-Regular";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39.6px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: var(--color-gray);
+    margin-top: 5rem;
+    margin-left: 50vw;
+    margin-right: 10vw;
+}
+
+article a{
+    font-family: "WorkSans-Regular";
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70.38px;
+    letter-spacing: -0.06em;
+    display: block;
+    /* text-align: center; */
+    text-decoration: none;
+    color: var(--color-white);
+    margin-top: 6rem;
+    margin-left: 50vw;
+}
+
+article a:hover{
+    text-decoration: underline;
 }
