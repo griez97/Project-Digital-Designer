@@ -51,12 +51,6 @@ body{
     min-width: 1200px;
 }
 
-/* Button + Nummer change color */
-
-.black:hover ~ h4 {
-    color: var(--color-black);
-}
-
 header{
     margin: 20px auto;
 }
@@ -197,6 +191,76 @@ a{
     color: var(--color-white);
 }
 
+.portfolio3{
+    background-image: url("../img/portfolio3.png");
+    background-attachment: fixed;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.portfolio5{
+    background-image: url("../img/portfolio5.png");
+    background-attachment: fixed;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.portfolio3 h3, .portfolio5 h3{
+    font-family: "Didact";
+    font-size: 112px;
+    font-weight: 400;
+    line-height: 146.83px;
+    text-align: left;
+    color: var(--color-black);
+    margin-left: 7rem;
+}
+
+.portfolio3 h4, .portfolio5 h4{
+    font-family: "Fjalla";
+    font-size: 165px;
+    font-weight: 400;
+    line-height: 207.38px;
+    letter-spacing: -0.02em;
+    text-align: right;
+    color: var(--color-graylight);
+    padding-top: 2rem;
+    padding-right: 3rem;
+}
+
+.black{
+    background: none;
+    padding: 1rem;
+    border: 2px solid var(--color-black);
+}
+
+.black:hover{
+    background: var(--color-black);
+}
+
+.black:hover a{
+    color: var(--color-white);
+}
+
+.black:hover ~ h4 {
+    color: var(--color-black);
+}
+
+.white:hover{
+    background: var(--color-black);
+}
+
+.white:hover a{
+    color: var(--color-white);
+}
+
+.white:hover ~ h4 {
+    color: var(--color-black);
+}
+
 article{
     background-color: var(--color-black);
     height: 105vh;
@@ -243,4 +307,44 @@ article a{
 
 article a:hover{
     text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    font-family: "Didact";
+    color: var(--color-black);
+    font-size: 7.5em;
+    text-decoration: none;
+}
+
+footer p{
+    padding-top: 10em;
+}
+
+.heart{
+    margin-bottom: 5em;
+}
+
+a:hover{
+    text-decoration: underline;
+    }
+
+.heart{
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse{
+    0% {
+        transform: scale(0.9);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.9);}
 }
