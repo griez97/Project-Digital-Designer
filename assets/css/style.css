@@ -249,7 +249,7 @@ a{
     color: var(--color-black);
 }
 
-.white:hover{
+/* .white:hover{
     background: var(--color-black);
 }
 
@@ -259,7 +259,7 @@ a{
 
 .white:hover ~ h4 {
     color: var(--color-black);
-}
+} */
 
 article{
     background-color: var(--color-black);
